@@ -1,9 +1,8 @@
 // meeting data
 const meetings = [
   { title: "Daily Huddle", url: "https://meet.google.com/nyn-hdcy-sxt"},
-  { title: "Priyanka Akka", url: "https://meet.google.com/wty-zimo-rrc"},
-  { title: "Design Review", url: "https://teams.microsoft.com/l/meetup-join/xyz" },
-  { title: "Project Kickoff", url: "https://zoom.us/j/0987654321" }
+  { title: "Priyanka-Akka", url: "https://meet.google.com/wty-zimo-rrc"}
+  
 ];
 
 const meetingList = document.getElementById('meeting-list');
