@@ -3,18 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Join Your Meetings</title>
+  <title>My Meeting Hub | Professional Meeting Platform</title>
   <link rel="icon" href="meeting.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
+  <div class="theme-toggle" id="theme-toggle">
+    <i class="fas fa-moon"></i>
+  </div>
+
   <div class="container">
-    <h1>My Meeting Hub</h1>
+    <div class="header">
+      <h1>My Meeting Hub</h1>
+      <p class="subtitle">Quick access to all your important meetings</p>
+    </div>
+    
     <div id="meeting-list" class="meeting-grid"></div>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
