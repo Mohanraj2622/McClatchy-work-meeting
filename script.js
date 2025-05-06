@@ -1,9 +1,7 @@
-// meeting data 
-
+// meeting data
 const meetings = [
   { title: "Daily Huddle", url: "https://meet.google.com/nyn-hdcy-sxt"},
-  { title: "Priyanka-Akka", url: "https://meet.google.com/wty-zimo-rrc"}
-  
+  { title: "Priyanka-Akka", url: "https://meet.google.com/wty-zimo-rrc"}, 
 ];
 
 const meetingList = document.getElementById('meeting-list');
